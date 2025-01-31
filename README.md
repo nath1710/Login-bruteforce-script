@@ -33,7 +33,7 @@ I logged in with the obtained credentials and accessed the account to complete t
 ### Code design
 To design the script, I based myself on the methodology used to solve the lab. I implemented the reading of .txt files containing the users and passwords, generating the POST request, whose code fragment is noted in the comments.
 I had the code iterate over the contents of the files, obtaining the length of the server response. First, I tested the usernames and detected the correct one by finding a response with a different length. Then, I repeated the process 
-with the passwords. Finally, I ran the script in the VS Code terminal with python script.py to verify its operation.
+with the passwords. Finally, I ran the script in the VS Code terminal with `python script.py` to verify its operation.
 
 💡Note: This taking into account that for the exercise I would have a computer with only Python installed.;
 
