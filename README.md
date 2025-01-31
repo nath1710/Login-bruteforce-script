@@ -2,7 +2,12 @@
 
 
 <p align="center">
-<a href="https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses"><img src="https://youtu.be/DEUCRYGt3TY" /></a>
+<a href="https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses">Lab: Username enumeration via different responses</a>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=DEUCRYGt3TY">
+    <img src="https://img.youtube.com/vi/DEUCRYGt3TY/hqdefault.jpg" alt="Brute Force Attack with Python">
+  </a>
+</p>
 </p>
 
 
@@ -11,7 +16,7 @@
 
 1. installed and run Burpsuite:
 
-https://portswigger.net/burp/communitydownload
+   https://portswigger.net/burp/communitydownload
    
 2. Installing foxy proxy in firefox browser:
 
