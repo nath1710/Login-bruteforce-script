@@ -25,7 +25,7 @@
 3. Foxy proxy and burpsuite configuration is performed
 
 ### Laboratory resolution
-I ran Burp and sent invalid credentials on the login page. In Proxy > HTTP history, I located the POST /login request, highlighted the username parameter and sent it to Burp Intruder. 
+I ran Burp and sent invalid credentials on the login page. In **Proxy > HTTP history, I located the POST /login request**, highlighted the username parameter and sent it to Burp Intruder. 
 I set up a Sniper attack with a list of usernames and, by comparing the length of the server responses, identified the correct user. Then, 
 I set the password parameter to load and repeated the process with a list of passwords, detecting the correct one in the same way. Finally, 
 I logged in with the obtained credentials and accessed the account to complete the lab.
